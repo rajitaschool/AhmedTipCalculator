@@ -31,7 +31,7 @@ public class Main {
         totalCost += itemCost;
 
         while (itemCost != -1) {
-            System.out.println("Enter a cost in dollars and cents, e.g. 12.50 (-1 to end):");
+            System.out.println("Enter the total cost of those meals in dollars and cents, e.g. 12.50 (-1 to end):");
             itemCost = scan.nextDouble();
             scan.nextLine();
             if (itemCost != -1)
